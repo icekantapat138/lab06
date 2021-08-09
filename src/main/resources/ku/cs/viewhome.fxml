@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.shop.controllers.viewHome">
+   <children>
+      <Label layoutX="86.0" layoutY="169.0" text="6310450433">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="220.0" text="kantapat radchawatr">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="270.0" text="ice">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="712.0" layoutY="561.0" mnemonicParsing="false" onAction="#handlebackButton" text="back" />
+      <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="434.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
